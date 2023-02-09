@@ -1,12 +1,12 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/greek",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Greek language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/greek",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"greek-locale"
 	],
 	"license": "MIT",
 	"authors": [
@@ -17,8 +17,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/greek/issues",
+		"source": "https://github.com/flarum-lang/greek"
 	},
 	"require": {
 		"flarum/core": "^1.5"
@@ -27,7 +27,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Greek",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
