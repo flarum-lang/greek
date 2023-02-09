@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/greek)](https://packagist.org/packages/flarum-lang/greek/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/greek)](https://packagist.org/packages/flarum-lang/greek/stats) 
 
-This language pack contains Xxish translations for Flarum (compatible with `1.5.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Greek translations for Flarum (compatible with `1.5.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
