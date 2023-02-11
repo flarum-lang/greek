@@ -34,6 +34,12 @@ Then clear the cache:
 php flarum cache:clear
 ```
 
+## Contributing
+
+All translations are managed on this [Weblate instance](https://weblate.rob006.net/engage/flarum/el/), no coding skills or Git knowledge is required to contribute. Flarum internal strings are handled in the 'core' component, otherwise select the extension you want to translate. You can use the search function on a components page to quickly find specific strings you wish to translate or update.
+
+**Additions and improvements to the translations are very welcome, all help is greatly appreciated!**
+
 
 ## Translation status for Flarum core
 

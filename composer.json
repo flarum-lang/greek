@@ -11,9 +11,10 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Alex Ghizila",
+			"email": "info@alexghizila.com",
+			"homepage": "https://www.alexghizila.com/",
+			"role": "Translator"
 		}
 	],
 	"support": {
@@ -30,16 +31,14 @@
 			"title": "Greek",
 			"icon": {
 				"image": "icon.svg",
-				"backgroundSize": "cover",
-				"backgroundPosition": "center"
+				"backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
 			}
 		},
 		"flarum-locale": {
 			"code": "el",
 			"title": "Greek"
-		},
-		"extiverse": {
-			"discuss": ""
 		}
 	}
 }
