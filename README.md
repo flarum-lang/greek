@@ -45,8 +45,8 @@ All translations are managed on this [Weblate instance](https://weblate.rob006.n
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/xx/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/xx/) |
-| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/xx/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/xx/) |
+| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/el/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/el/) |
+| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/el/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/el/) |
 
 
 ## Translation status for official extensions
@@ -77,6 +77,6 @@ All translations are managed on this [Weblate instance](https://weblate.rob006.n
 
 This language pack is part of [Flarum translations collective](https://github.com/rob006-software/flarum-translations).
 
-Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/xx.js).
+Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/el.js).
 
-Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/xx/validation.php).
+Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/el/validation.php).
