@@ -24,7 +24,6 @@ core:
       favicon_text: 'Ανέβασε μια εικόνα που θα χρησημοποιηθεί σαν εικονίδιο του forum.'
       logo_heading: Λογότυπο
       logo_text: 'Ανέβασε μια εικόνα που θα εμφανίζεται στην θέση του τίτλου.'
-      submit_button: '=> core.ref.save_changes'
       title: Εμφάνιση
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
@@ -37,11 +36,9 @@ core:
       forum_title_heading: 'Τίτλος του forum'
       home_page_heading: 'Αρχική σελίδα'
       home_page_text: 'Επίλεξε την σελίδα που θα βλέπουν οι χρήστες όταν επισκεφτούν το forum σου.'
-      saved_message: 'Οι αλλαγές αποθηκεύτηκαν.'
       show_language_selector_label: 'Εμφάνιση του επιλογέα της γλώσσας'
       slug_driver_heading: 'Πρόγραμμα οδήγησης Slug: {model}'
       slug_driver_text: 'Επίλεξε ένα πρόγραμμα οδήγησης για τα Slugs αυτού του Model.'
-      submit_button: '=> core.ref.save_changes'
       title: 'Βασικές ρυθμίσεις'
       welcome_banner_heading: 'Banner καλωσορίσματος'
       welcome_banner_text: 'Διαμόρφωσε το κείμενο που εμφανίζεται στο Banner στην σελίδα Όλα τα θέματα. Χρησιμοποιήσέ το για να καλωσορίσεις του επισκέπτες του forum σου.'
@@ -95,10 +92,8 @@ core:
       send_test_mail_success: 'Η αποστολή δοκιμαστικού e-mail ήταν επιτυχής!'
       send_test_mail_text: 'Αυτό θα στείλει ένα e-mail με τη χρήση της παραπάνω ρύθμισης στο email σας, {email}.'
       smtp_heading: 'Ρυθμίσεις SMTP'
-      submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
-      confirm_uninstall: 'Η απεγκατάσταση θα καταργήσει όλες τις καταχωρήσεις στην βάση δεδομένων και τα στοιχεία που σχετίζονται με το πρόσθετο. Είσαι σίγουρος οτι θέλεις να συνεχίσεις;'
       disabled: Απενεργοποιημένο
       enable_to_see: 'Ενεργοποίησε αυτό το πρόσθετο για να μπορείς να δείς και να αλλάξεις τις ρυθμίσιες του.'
       enabled: Ενεργοποιημένο
@@ -113,8 +108,6 @@ core:
       no_settings: 'Αυτό το πρόθετο δεν έχει ρυθμίσεις.'
       open_modal: 'Άνοιγμα ρυθμίσεων'
       permissions_title: Δικαιώματα
-      saved_message: 'Οι αλλαγές αποθηκεύτηκαν.'
-      uninstall_button: Απεγκατάσταση
     header:
       get_help: 'Ζήτησε βοήθεια'
       log_out_button: '=> core.ref.log_out'
@@ -164,11 +157,9 @@ core:
       sign_up_label: Εγγραφή
       start_discussions_label: 'Έναρξη συζητήσεων'
       title: Δικαιώματα
-      view_discussions_label: 'Εμφάνιση συζητήσεων'
       view_hidden_groups_label: 'Εμφάνιση εμβλημάτων κρυφών ομάδων'
       view_last_seen_at_label: 'Πάντα να εμφανίζεται πότε ήταν ο χρήστης ενεργός τελευταία φορά'
       view_post_ips_label: 'Εμφάνιση την IP διεύθυνση της δημοσίευσης'
-      view_user_list_label: 'Εμφάνιση λίστας χρηστών'
     permissions_controls:
       allow_indefinitely_button: 'Επ ''αόριστον'
       allow_some_minutes_button: 'Για {count} λεπτό|Για {count} λεπτά'
@@ -247,21 +238,8 @@ core:
     discussion_list:
       empty_text: 'Απ''ότι φαίνεται, δεν υπάρχουν συζητήσεις εδώ.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Επισήμανση ως αναγνωσμένο'
       replied_text: '{username} απάντησε {ago}'
       started_text: '{username} ξεκίνησε {ago}'
-    edit_user:
-      activate_button: 'Ενεργοποίηση χρήστη'
-      email_heading: '=> core.ref.email'
-      email_label: '=> core.ref.email'
-      groups_heading: Ομάδες
-      password_heading: '=> core.ref.password'
-      password_label: '=> core.ref.password'
-      set_password_label: 'Set new password'
-      submit_button: '=> core.ref.save_changes'
-      title: 'Επεξεργασία χρήστη'
-      username_heading: '=> core.ref.username'
-      username_label: '=> core.ref.username'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -393,6 +371,18 @@ core:
   lib:
     badge:
       hidden_tooltip: Κρυφό
+    edit_user:
+      activate_button: 'Ενεργοποίηση χρήστη'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Ομάδες
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Set new password'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Επεξεργασία χρήστη'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Δεν είναι δυνατή η απενεργοποίηση του πρόσθετου {extension} έως ότου απενεργοποιηθούν τα ακόλουθα πρόσθετα: {extensions}'
       generic_message: 'Ωχ! Κάτι πήγε στραβά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.'

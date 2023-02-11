@@ -30,8 +30,6 @@ askvortsov-categories:
       categories_link: Ενότητες
     last_discussion_widget:
       no_discussions: 'Προς το παρόν δεν υπάρχουν συζητήσεις'
-    meta:
-      categories_title: Ενότητες
     stat-widgets:
       discussion_label: Συζητήσεις
       post_label: Δημοσιεύσεις

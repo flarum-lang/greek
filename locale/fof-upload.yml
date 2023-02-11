@@ -4,8 +4,6 @@
 
 fof-upload:
   admin:
-    buttons:
-      save: 'Save settings'
     help_texts:
       client_extension: "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n"
       composer_buttons: "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"

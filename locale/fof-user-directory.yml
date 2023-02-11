@@ -32,7 +32,5 @@ fof-user-directory:
       newest: 'Οι νεότεροι'
       not_specified: Προεπιλογή
       oldest: 'Οι παλιότεροι'
-      seen_oldest: 'Το περισσότερο ανενεργοί'
-      seen_recent: 'Πριν από λίγο ενεργοί'
       username_az: 'Username (Α-Ω)'
       username_za: 'Username (Ω-Α)'

@@ -7,6 +7,11 @@ askvortsov-rich-text:
     settings:
       toggle_on_editor: 'Εμφάνιση εναλλαγής λειτουργίας rich text στον επεξεργαστή;'
   forum:
+    settings:
+      composer_heading: 'Επεξεργαστής κειμένου'
+      rich_text_compact_paragraphs_label: 'Να μην διαχωρίζονται οι παράγραφοι όταν αλλάζετε γραμμή.'
+      use_rich_text_editor_label: 'Να χρησιμοποιώ τον προχωρημένο επεξεργαστή κειμένου;'
+  lib:
     composer:
       additional_items_tooltip: Άλλα
       bold_tooltip: 'Έντονο κείμενο <{modifierKey}-b>'
@@ -37,7 +42,3 @@ askvortsov-rich-text:
       text_type_tooltip: 'Επιλογή τύπου κειμένου'
       toggle_button: 'Λειτουργία προχωρημένου επεξεργαστή κειμένου'
       unordered_list_tooltip: 'Λίστα με κουκκίδες <shift-{modifierKey}-8>'
-    settings:
-      composer_heading: 'Επεξεργαστής κειμένου'
-      rich_text_compact_paragraphs_label: 'Να μην διαχωρίζονται οι παράγραφοι όταν αλλάζετε γραμμή.'
-      use_rich_text_editor_label: 'Να χρησιμοποιώ τον προχωρημένο επεξεργαστή κειμένου;'
