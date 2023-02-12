@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Χρωματιστή κεφαλίδα'
       colors_heading: Χρώματα
+      colors_primary_label: 'Κύριο χρώμα'
+      colors_secondary_label: 'Δευτερεύον χρώμα'
       colors_text: 'Διάλεξε δύο χρώματα για την εμφάνιση του forum σου. Το πρώτο θα χρησιμοποιηθεί σαν χρώμα επισήμανσης και το δεύτερο σαν χρώμα φόντου.'
       custom_footer_heading: 'Προσαρμοσμένο υποσέλιδο (Footer)'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,8 +47,12 @@ core:
     dashboard:
       clear_cache_button: 'Διαγραφή Cache'
       description: 'Το forum σου με μια ματιά.'
+      io_error_message: 'Δεν ήταν δυνατή η εγγραφή στο σύστημα αρχείων. Ελέγξτε τα δικαιώματα του συστήματος αρχείων και προσπαθήστε ξανά. Ή δοκιμάστε να το εκτελέσετε από τη γραμμή εντολών.'
       title: 'Πίνακας ελέγχου'
       tools_button: Εργαλεία
+    debug-warning:
+      detail: "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum<-link> για περισσότερες πληροφορίες.\n"
+      label: 'Λειτουργία αποσφαλμάτωσης ενεργή'
     edit_css:
       customize_text: 'Διαμόρφωσε την εμφάνιση του forum σου, προσθέτοντας τον δικό σου LESS/CSS κώδικα που θα προστεθεί στα <a>προκαθορισμένα styles</a> του Flarum.'
       submit_button: '=> core.ref.save_changes'
@@ -94,6 +100,8 @@ core:
       smtp_heading: 'Ρυθμίσεις SMTP'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'Ρύθμιση των πεδίων εφαρμογής'
+      confirm_purge: 'Η εκκαθάριση θα αφαιρέσει όλες τις καταχωρήσεις στη βάση δεδομένων και τα στοιχεία που σχετίζονται με την επέκταση. ΔΕΝ θα απεγκαταστήσει την επέκταση, αυτό πρέπει να γίνει μέσω του Composer. Είστε σίγουροι ότι θέλετε να συνεχίσετε;'
       disabled: Απενεργοποιημένο
       enable_to_see: 'Ενεργοποίησε αυτό το πρόσθετο για να μπορείς να δείς και να αλλάξεις τις ρυθμίσιες του.'
       enabled: Ενεργοποιημένο
@@ -108,6 +116,11 @@ core:
       no_settings: 'Αυτό το πρόθετο δεν έχει ρυθμίσεις.'
       open_modal: 'Άνοιγμα ρυθμίσεων'
       permissions_title: Δικαιώματα
+      purge_button: Εκκαθάριση
+      readme:
+        button_label: README
+        no_readme: 'Αυτή η επέκταση δεν φαίνεται να έχει αρχείο README'
+        title: '{extName} documentation'
     header:
       get_help: 'Ζήτησε βοήθεια'
       log_out_button: '=> core.ref.log_out'
@@ -135,6 +148,8 @@ core:
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Αναζήτηση προσθέτων'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: 'Να επιτραπεί η επεξεργασία της δημοσίευσης'
       allow_renaming_label: 'Να επιτραπεί η μετονομασία'
@@ -145,6 +160,8 @@ core:
       delete_posts_label: 'Διαγραφή δημοσιεύσεων'
       description: 'Διαμόρφωσε ποιος μπορεί να δει και να κάνει τι.'
       edit_posts_label: 'Επεξεργασία δημοσιεύσεων'
+      edit_users_credentials_label: 'Επεξεργασία των διαπιστευτηρίων χρήστη'
+      edit_users_groups_label: 'Επεξεργασία ομάδων χρηστών'
       edit_users_label: 'Επεξεργασία χρηστών'
       global_heading: Γενίκες
       moderate_heading: Συντονισμός
@@ -154,9 +171,11 @@ core:
       read_heading: Ανάγνωση
       rename_discussions_label: 'Μετονομασία συζητήσεων'
       reply_to_discussions_label: 'Απάντηση σε μια συζήτηση'
+      search_users_label: 'Αναζήτηση χρηστών'
       sign_up_label: Εγγραφή
       start_discussions_label: 'Έναρξη συζητήσεων'
       title: Δικαιώματα
+      view_forum_label: 'Προβολή forum (συζητήσεις και χρήστες)'
       view_hidden_groups_label: 'Εμφάνιση εμβλημάτων κρυφών ομάδων'
       view_last_seen_at_label: 'Πάντα να εμφανίζεται πότε ήταν ο χρήστης ενεργός τελευταία φορά'
       view_post_ips_label: 'Εμφάνιση την IP διεύθυνση της δημοσίευσης'
@@ -170,10 +189,38 @@ core:
       signup_closed_button: Κλειστό
       signup_open_button: Ανοιχτό
     settings:
+      saved_message: 'Οι αλλαγές αποθηκεύτηκαν.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Επίλεξε μια εικόνα...'
+    users:
+      description: 'Μια σελιδοποιημένη λίστα όλων των χρηστών στο forum σας.'
+      grid:
+        columns:
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: 'Επεξεργασία {username}'
+          email:
+            title: '=> core.ref.email'
+            visibility_hide: 'Απόκρυψη διεύθυνσης email'
+            visibility_show: 'Εμφάνιση διεύθυνσης email'
+          group_badges:
+            no_badges: Κανένα
+            title: Ομάδες
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'Επισκεφθείτε το προφίλ του {username}'
+            title: '=> core.ref.username'
+        invalid_column_content: 'Μη έγκυρο'
+      pagination:
+        back_button: 'Προηγούμενη σελίδα'
+        next_button: 'Επόμενη σελίδα'
+        page_counter: 'Σελιδα {current} από {total}'
+      title: '=> core.ref.users'
+      total_users: 'Σύνολο χρηστών: {count}'
   api:
     invalid_username_message: 'Το όνομα χρήστη πρέπει περιέχει μόνο γράμματα, αριθμούς και παύλες.'
   email:
@@ -235,6 +282,7 @@ core:
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Εναλλαγή πτυσσόμενου μενού ενεργειών συζήτησης'
     discussion_list:
       empty_text: 'Απ''ότι φαίνεται, δεν υπάρχουν συζητήσεις εδώ.'
       load_more_button: '=> core.ref.load_more'
@@ -251,10 +299,14 @@ core:
     header:
       admin_button: Διαχείριση
       back_to_index_tooltip: 'Πίσω στην λίστα συζητήσεων'
+      locale_dropdown_accessible_label: 'Αλλαγή τοπικής γλώσσας φόρουμ'
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Προφίλ
+      search_clear_button_accessible_label: 'Εκκαθάριση ερωτήματος αναζήτησης'
       search_placeholder: 'Αναζήτηση στο Forum'
+      search_role_label: 'Αναζήτηση στο forum'
+      session_dropdown_accessible_label: 'Εναλλαγή πτυσσόμενου μενού επιλογών session'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -265,11 +317,13 @@ core:
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Ανανέωση
       start_discussion_button: '=> core.ref.start_a_discussion'
+      toggle_sidenav_dropdown_accessible_label: 'Εναλλαγή πτυσσόμενου μενού πλοήγησης'
     index_sort:
       latest_button: 'Τα πιο πρόσφατα'
       newest_button: 'Τα νεότερα'
       oldest_button: 'Τα παλιότερα'
       relevance_button: 'Τα πιο σχετικά'
+      toggle_dropdown_accessible_label: 'Αλλαγή ταξινόμησης λίστας συζητήσεων'
       top_button: 'Τα πιο δημοφιλή'
     log_in:
       forgot_password_link: 'Ξεχάσατε τον κωδικό σας;'
@@ -281,11 +335,14 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Όνομα χρήστη ή e-mail'
     notifications:
+      delete_all_confirm: 'Είστε σίγουροι ότι θέλετε να διαγράψετε όλες τις ειδοποιήσεις; Αυτή η ενέργεια δεν μπορεί να αντιστραφεί'
+      delete_all_tooltip: 'Διαγραφή όλων των ειδοποιήσεων'
       discussion_renamed_text: '{username} άλλαξε αυτόν τον τίτλο'
       empty_text: 'Καμία ειδοποίηση'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Επισήμανση ως αναγνωσμένο'
       title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'Προβολή ειδοποιήσεων'
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: Επεξεργάστηκε
@@ -298,6 +355,7 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την δημοσίευση;'
       restore_button: '=> core.ref.restore'
+      toggle_dropdown_accessible_label: 'Εναλλαγή του πτυσσόμενου μενού ελέγχου δημοσιεύσεων'
     post_scrubber:
       now_link: Τώρα
       original_post_link: 'Αρχική δημοσίευση'
