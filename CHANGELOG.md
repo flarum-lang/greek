@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.0.1 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [1.0.0...1.0.1](https://github.com/flarum-lang/greek/compare/1.0.0...1.0.1).
+
+
 1.0.0 (2023-02-12)
 ------------------
 
