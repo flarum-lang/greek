@@ -29,11 +29,12 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Greek",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#ffffff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
 			}
 		},
 		"flarum-locale": {
