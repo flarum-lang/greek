@@ -40,6 +40,9 @@
 		"flarum-locale": {
 			"code": "el",
 			"title": "Greek"
+		},
+		"branch-alias": {
+			"dev-master": "1.x-dev"
 		}
 	}
 }
