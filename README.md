@@ -14,7 +14,7 @@ This language pack contains Greek translations for Flarum (compatible with `1.5.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/greek
+composer require "flarum-lang/greek:*"
 ```
 
 Then enable extension in admin panel of your Flarum.
