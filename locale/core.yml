@@ -447,7 +447,7 @@ core:
     email: E-mail
     icon: Εικονίδιο
     icon_text: 'Εισάγετε το όνομα οποιασδήποτε κλάσης εικονιδίου <a>FontAwesome</a>, <em>εισάγοντας</em> επίσης <code>fas fa-</code> μπροστά. Π.χ. <code>fas fa-envelope</code>'
-    load_more: 'Φώρτωσε περισσότερα'
+    load_more: 'Φόρτωσε περισσότερα'
     log_in: Σύνδεση
     log_out: Αποσύνδεση
     mark_all_as_read: 'Επισήμανση όλων ως αναγνωσμένα'
