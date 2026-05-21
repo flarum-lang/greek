@@ -10,6 +10,11 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/greek/compare/2.0.0...2.0.1).
 
 
