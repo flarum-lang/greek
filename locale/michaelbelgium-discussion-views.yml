@@ -23,7 +23,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Επαναφορά προβολών'
     modal_resetviews:
-      label: 'Αυτό θα καταργήσει {count} προβολή αυτής της συζήτησης. Συνέχεια; | Αυτό θα καταργήσει {count} προβολές αυτής της συζήτησης. Συνέχεια?'
+      label: '{count, plural, one {Αυτό θα καταργήσει {count} προβολή αυτής της συζήτησης. Συνέχεια;} other {Αυτό θα καταργήσει {count} προβολές αυτής της συζήτησης. Συνέχεια;}}'
       submit_button: 'Ναι, αφαίρεση όλων'
       title: 'Επαναφορά του αριθμού προβολών συζήτησης'
     viewlist:

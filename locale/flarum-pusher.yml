@@ -12,4 +12,4 @@ flarum-pusher:
       title: 'Ρυθμίσεις Pusher'
   forum:
     discussion_list:
-      show_updates_text: 'Προβολή {count} ενημερωμένης συζήτησης|Προβολή {count} ενημερωμέων συζητήσεων'
+      show_updates_text: '{count, plural, one {Προβολή # ενημερωμένης συζήτησης} other {Προβολή # ενημερωμένων συζητήσεων}}'
