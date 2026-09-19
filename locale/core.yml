@@ -51,7 +51,7 @@ core:
       title: 'Πίνακας ελέγχου'
       tools_button: Εργαλεία
     debug-warning:
-      detail: "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum<-link> για περισσότερες πληροφορίες.\n"
+      detail: "Όταν η λειτουργία εντοπισμού σφαλμάτων (<code>debug</code>) είναι ενεργή, το Flarum θα ανακατασκευάζει τα στοιχεία <code>JavaScript</code> και <code>CSS</code> σε κάθε αίτηση και θα μπορούσε επίσης δυνητικά να διαρρεύσει άλλες πληροφορίες, όπως ευαίσθητα στοιχεία βάσης δεδομένων, μεταβλητές περιβάλλοντος κ.λπ.\n\nΣυνιστάται ιδιαίτερα να απενεργοποιήσετε την αποσφαλμάτωση (<code>debug</code>) στο αρχείο <code>config.php</code> στην παραγωγή. Δείτε τα <link>έγγραφα του Flarum</link> για περισσότερες πληροφορίες.\n"
       label: 'Λειτουργία αποσφαλμάτωσης ενεργή'
     edit_css:
       customize_text: 'Διαμόρφωσε την εμφάνιση του forum σου, προσθέτοντας τον δικό σου LESS/CSS κώδικα που θα προστεθεί στα <a>προκαθορισμένα styles</a> του Flarum.'
@@ -181,7 +181,7 @@ core:
       view_post_ips_label: 'Εμφάνιση την IP διεύθυνση της δημοσίευσης'
     permissions_controls:
       allow_indefinitely_button: 'Επ ''αόριστον'
-      allow_some_minutes_button: 'Για {count} λεπτό|Για {count} λεπτά'
+      allow_some_minutes_button: '{count, plural, one {Για # λεπτό} other {Για # λεπτά}}'
       allow_ten_minutes_button: 'Για 10 λεπτά'
       allow_until_reply_button: 'Μέχρι την επόμενη απάντηση'
       everyone_button: Όλοι
@@ -359,8 +359,8 @@ core:
     post_scrubber:
       now_link: Τώρα
       original_post_link: 'Αρχική δημοσίευση'
-      unread_text: '{count} μη αναγνωσμένο|{count} μη αναγνωσμένα'
-      viewing_text: '{index} από {count} δημοσίευση|{index} από {count} δημοσιεύσεις'
+      unread_text: '{count, plural, one {# μη αναγνωσμένο} other {# μη αναγνωσμένα}}'
+      viewing_text: '{count, plural, one {{index} από {formattedCount} δημοσίευση} other {{index} από {formattedCount} δημοσιεύσεις}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Ο παλιός τίτλος ήταν: "{old}"'
       discussion_renamed_text: '{username} άλλαξε τον τίτλο σε {new}.'
@@ -493,7 +493,7 @@ core:
     save_changes: 'Αποθήκευση αλλαγών'
     settings: Ρυθμίσεις
     sign_up: Εγγραφή
-    some_others: '{count} άλλος|{count} άλλοι'
+    some_others: '{count, plural, one {# άλλος} other {# άλλοι}}'
     start_a_discussion: 'Νέα συζήτηση'
     username: Username
     users: Χρήστες

@@ -20,7 +20,7 @@ fof-polls:
       date_placeholder: 'Ημερομηνία λήξης δημοσκόπησης (Προαιρετικό)'
       edit_title: 'Επεξεργασία δημοσκόπησης'
       include_question: 'Πρέπει να συμπεριλάβετε μια ερώτηση'
-      max: 'Μπορείτε να έχετε έως και 10 απαντήσεις'
+      max: 'Μπορείτε να έχετε έως και {max} απαντήσεις'
       min: 'Πρέπει να συμπεριλάβετε τουλάχιστον 2 απαντήσεις'
       no_voters: 'Καμία ψήφο'
       option_placeholder: Απάντηση
@@ -37,6 +37,6 @@ fof-polls:
     public_poll: 'Προβολή ψηφοφόρων'
     tooltip:
       badge: Δημοσκόπηση
-      votes: '1 ΄ψήφος|{count} ψήφοι'
+      votes: '{count, plural, one {# ψήφος} other {# ψήφοι}}'
     votes_modal:
       title: Ψηφοφόροι

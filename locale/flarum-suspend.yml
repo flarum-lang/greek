@@ -7,9 +7,6 @@ flarum-suspend:
     permissions:
       suspend_users_label: 'Αναστολή χρηστών'
   forum:
-    notifications:
-      user_suspended_text: '{username} σας έθεσε σε αναστολή για {timeReadable}'
-      user_unsuspended_text: '{username} ακύρωσε την αναστολή σας'
     suspend_user:
       indefinitely_label: 'Σε αναστολή επ`αορίστου'
       limited_time_days_text: ' ημέρες'
