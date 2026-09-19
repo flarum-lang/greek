@@ -10,6 +10,19 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
 All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/greek/compare/1.0.1...1.0.2).
 
 
