@@ -15,6 +15,16 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
+**Updated translations for extensions**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/greek/compare/2.0.0...2.0.1).
 
 
