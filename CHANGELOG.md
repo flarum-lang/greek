@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.0.2 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (6 changed).
+
+
+**Updated translations for extensions**:
+
+* [`flarum/likes`](https://github.com/flarum/likes) (1 changed)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (2 changed)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/suspend`](https://github.com/flarum/suspend) (2 removed)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (1 removed)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 changed)
+
+
+**Removed support for outdated extensions**:
+
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+
+
+All changes: [1.0.1...1.0.2](https://github.com/flarum-lang/greek/compare/1.0.1...1.0.2).
+
+
 1.0.1 (2023-02-12)
 ------------------
 
