@@ -62,7 +62,6 @@ fof-username-request:
         title: '=> fof-username-request.ref.username_change_request'
       request:
         confirmation_message: 'Το αίτημά σας για αλλαγή του username υποβλήθηκε και εκκρεμεί έγκριση.'
-        current_request: 'Μπορείτε να υποβάλετε ξανά ένα νέο αίτημα αλλαγής του username από τις ρυθμίσεις του λογαριασμού σας, εάν το επιθυμείτε.'
         delete_button: 'Διαγραφή αιτήματος'
         deleted: 'Το αίτημα αλλαγής του username διαγράφηκε.'
         dismiss_button: '=> core.ref.okay'
