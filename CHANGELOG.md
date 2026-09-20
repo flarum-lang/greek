@@ -7,7 +7,7 @@ CHANGELOG
 
 **General changes**:
 
-* Updated Flarum core translations.
+* Updated Flarum core translations (6 changed).
 
 
 **Added support for new extensions**:
@@ -17,12 +17,12 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`flarum/likes`](https://github.com/flarum/likes)
-* [`flarum/mentions`](https://github.com/flarum/mentions)
-* [`flarum/pusher`](https://github.com/flarum/pusher)
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`flarum/likes`](https://github.com/flarum/likes) (1 changed)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (2 changed)
+* [`flarum/pusher`](https://github.com/flarum/pusher) (1 changed)
+* [`flarum/tags`](https://github.com/flarum/tags) (1 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 changed)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed)
 
 
 All changes: [2.0.0...2.0.1](https://github.com/flarum-lang/greek/compare/2.0.0...2.0.1).
