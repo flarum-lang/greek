@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/greek/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-09-30)
 ------------------
 
