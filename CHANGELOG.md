@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-11-23)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/greek/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-10-27)
 ------------------
 
