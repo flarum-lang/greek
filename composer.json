@@ -1,31 +1,27 @@
 {
 	"name": "flarum-lang/greek",
+	"description": "Greek Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Greek language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/greek",
 	"keywords": [
-		"locale",
-		"flarum",
-		"greek-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/greek",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Alex Ghizila",
-			"email": "info@alexghizila.com",
-			"homepage": "https://www.alexghizila.com/",
-			"role": "Translator"
+			"name": "futuresound",
+			"homepage": "https://github.com/futuresound",
+			"role": "Maintainer"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/greek/issues",
+		"forum": "https://discuss.flarum.org/d/26162",
 		"source": "https://github.com/flarum-lang/greek"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Greek",
@@ -39,10 +35,7 @@
 		},
 		"flarum-locale": {
 			"code": "el",
-			"title": "Greek"
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Ελληνικά"
 		}
 	}
 }
